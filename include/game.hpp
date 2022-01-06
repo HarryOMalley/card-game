@@ -11,6 +11,7 @@ private:
     void leave(std::string userId);
     void hit(std::string userId);
     void stick(std::string userId);
+    void preGame();
 
 public:
     Game(uint8_t num_decks);
